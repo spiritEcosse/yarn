@@ -1,0 +1,367 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html, body, .page {
+    height: 100%;
+}
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+img {
+    vertical-align: middle;
+}
+.for_rasporka {
+    min-height: 100%;
+}
+.page {
+    margin: 0px auto;
+    padding: 0px;
+    width: 980px;
+}
+/*header*/
+.header {
+    height: 191px;
+    margin-bottom: 9px;
+    padding-bottom: 4px;
+    position: relative;
+}
+.linetop {
+    background-color: #10940d;
+    height: 44px;
+    box-shadow: 0px 2px 2px #222;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 2px 2px #222;
+    -moz-box-shadow: 0px 2px 2px #222;
+    right: 6px;
+    left: 6px;
+}
+#welcome {
+    text-align: right;
+    color: #999999;
+    margin-right: 12px;
+    float: right;
+    margin-top: 12px;
+    font-size: 12px;
+}
+#welcome a {
+    color: black;
+    font-size: 12px;
+}
+.image_top {
+    width: 27px;
+    float:left;
+}
+.telephone_top {
+    float: left;
+    margin: 5px 5px 5px 216px;
+}
+.telephone_top h3 {
+    color: green;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.telephone_top b {
+    font-size: 15px;
+    font-weight: normal;
+    float:left;
+    margin-bottom: 11px;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+.telephone_top img {
+    width: 23px;
+    height: 23px;
+}
+.email_top {
+    margin: 5px 5px 5px 20px;
+    width: 165px;
+    float: left;
+}
+.email_top h3 {
+    color: green;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.email_top b {
+    font-size: 15px;
+    font-weight: normal;
+}
+.skype_top {
+    margin: 5px 5px 5px 20px;
+    width: 134px;
+    float: left;
+}
+.skype_top h3 {
+    color: green;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.skype_top b {
+    font-size: 15px;
+    font-weight: normal;
+}
+.header .number {
+    /*width: 209px;*/
+    float:left;
+}
+.header #logo {
+    position: absolute;
+    top: 48px;
+    left: -23px;
+}
+.header .top_menu {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+.header .top_menu a {
+    float: left;
+    display: block;
+    padding: 0px 0px 0px 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-left: 1px solid white;  
+}
+.header .top_menu a:first-child {
+    border-left: none;
+}
+.header .top_menu a + a {
+    margin-left: 8px;
+}
+.breadcrumb {
+    margin-bottom: 10px;
+}
+.breadcrumb a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+/*topmenu*/
+#topmenu > ul > li + li {
+    padding: 0px;
+    z-index: 1;
+    display: block;
+}
+#topmenu > ul > li:hover,
+#topmenu .topactive:hover,
+#topmenu  > ul > li:hover .topactive {
+    text-decoration: underline;
+}
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+.sf-menu ul {
+    position: absolute;
+    top: -999em;
+    width: 15em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+    width: 100%;
+}
+.sf-menu li:hover {
+    visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+    float: left;
+    position: relative;
+    line-height: 18px;
+}
+.sf-menu a {
+    display: block;
+    position: relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    top: 29px; /* match top ul list item height */
+    z-index: 99;
+    left: 175px;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+    left: 177px; /* match ul width */
+    top: 18px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+    top: -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+    left: 177px; /* match ul width */
+    top: 18px;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu a {
+    padding: .75em 8px;
+    text-decoration:none;
+}
+#topmenu .parent {
+    background: url('/catalog/view/theme/default/image/topmenuarrow.png') 95% center no-repeat;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -khtml-border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+}
+#topmenu .active {
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -khtml-border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #b1f663;
+}
+#topmenu .activeparent {
+    background: url('/catalog/view/theme/default/image/topmenuarrow.png') 95% center no-repeat;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -khtml-border-radius: 10px 0px 10px 0px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #b1f663;
+}
+#topmenu .topactive {
+    text-decoration: underline;
+}
+#topmenu .active:hover, #topmenu .activeparent:hover {
+    background-color: #86d727;
+}
+/*end topmenu*/
+/*end header*/
+/*content*/
+.content {
+    clear: both;
+}
+.column_left {
+    float: left;
+    margin-top: 40px;
+    margin-right: 18px;
+}
+.menu ul {
+    float: left;
+    list-style: none;
+    width: 185px;
+}
+.menu ul li {
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 7px;
+    width: 100%;
+}
+.menu ul li:first-child {
+    background: none;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover, .menu ul li:hover, .menu ul li.active a{
+    text-decoration: underline;
+}
+.menu ul ul {
+    background: #10940d;
+    left: 100px;
+    z-index: 100;
+    margin-top: -18px;
+    padding: 5px 0px 5px 5px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    border: 1px solid white;
+}
+.menu ul ul li {
+    line-height: 21px;
+}
+.menu ul ul li a {
+    display: block;
+    padding: 0px 5px 0px;
+    text-decoration: none;
+    border-bottom: none;
+    color: white;
+    text-transform: none;
+}
+.menu ul ul li a:hover, .menu ul ul li.active a{
+    display: block;
+    text-decoration: underline; 
+}
+.menu ul li:hover ul {
+    display: block;
+    width: 176px;
+}
+/*end menu*/
+/*main*/
+.main {
+    float: left;
+    width: 776px;
+}
+.title {
+    text-align: center;
+}
+.desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.desc .image {
+    float: left;
+}
+.desc .image img {
+    max-width: 368px;
+    max-height: 330px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.desc .image-additional {
+    clear: both;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.desc .image-additional img {
+    border: 1px solid #E7E7E7;
+}
+.desc .image-additional a {
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.desc .image-additional .wrapp_image a:nth-of-type(6n+1) {
+    margin-left: 0px;
+}
+/*end main*/
+.rasporovka {
+    height: 20px;
+}
+/*footer*/
+.footer {
+    text-align: center;
+    height: 20px;
+    margin-top: -20px;
+    background-color: #10940d;
+    clear: both;
+}
+.footer span {
+    color: white;
+    text-decoration: none;
+}

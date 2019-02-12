@@ -1,0 +1,27 @@
+<?
+header('Content-Type: text/html; charset=utf-8');
+?>
+<html><head><style>* { font-family: tahoma; font-size: 12px; }</style><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><body><h1></h1>
+
+<link rel="stylesheet" href="/catalog/view/javascript/callme/callme.css" type="text/css" />
+<script type="text/javascript" src="/catalog/view/javascript/callme/jquery.min.js"></script>
+<script type="text/javascript" src="/catalog/view/javascript/callme/jquery.storage.js"></script>
+<script type="text/javascript" src="/catalog/view/javascript/callme/callme.js"></script>
+
+<div id="callme"><input type="button" id="viewform" /></div>
+<div id="callmeform" class="hide-off"><div id="cme_cls"></div><h6>Заказать обратный звонок</h6>
+<table cellpadding="0" cellspacing="0">
+<tr><td>Ваше имя</td></tr>
+<tr><td><input class="txt" type="text" maxlength="150" id="cname" value="" /></td></tr>
+<tr><td>Телефон</td></tr>
+<tr><td><input class="txt" type="text" maxlength="150" value="+7-" id="cphone" /></td></tr>
+<tr><td>Вопрос или комментарий</td></tr>
+<tr><td><input class="txt" type="text" maxlength="1000" id="ccmnt" /></td></tr>
+<tr><td>
+<div id="cm_crds">&copy; CallMe, <a href="http://dedushka.org" target="_blank">Назар Токарь</a></div>
+<input class="btn" type="button" value="Перезвоните мне"></td>
+</tr>
+</table>
+<div id="callme_result"></div>
+</div>
+</body></html>

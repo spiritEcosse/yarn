@@ -1,0 +1,1 @@
+<div class="slogan"><?php echo $setting['text']; ?></div>

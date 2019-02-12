@@ -1,0 +1,132 @@
+<!-- Created using vQmod XML Generator by UKSB - http://www.opencart-extensions.co.uk //-->
+<modification>
+	<id><![CDATA[Image manager +]]></id>
+	<version><![CDATA[0.1]]></version>
+	<vqmver><![CDATA[]]></vqmver>
+	<author><![CDATA[pasha_st@ukr.net]]></author>
+	
+	<!-- <file name="ecosse/view/template/common/header.tpl">	
+		<operation>
+			<search position="after"><![CDATA[<script type="text/javascript" src="view/javascript/jquery/superfish/js/superfish.js"></script>]]></search>
+			<add><![CDATA[<script type="text/javascript" src="view/javascript/jquery/ui/external/jquery.bgiframe-2.1.2.js"></script>
+			<script type="text/javascript" src="view/javascript/jquery/dlgmax/dlgmax.js"></script>
+			]]></add>
+		</operation>		
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/catalog/category_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/catalog/manufacturer_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/catalog/option_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/sale/voucher_theme_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/setting/setting.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+	
+	<!-- <file name="/ecosse/view/template/setting/store_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[width: 800,]]></search>
+			<add><![CDATA[width: 960,]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[height: 400,]]></search>
+			<add><![CDATA[height: 500,]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[modal: false]]></search>
+			<add><![CDATA[,
+			dialogClass: 'dlg']]></add>
+		</operation>
+	</file> -->
+</modification>

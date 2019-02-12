@@ -1,0 +1,79 @@
+br .countdown{
+	clear: both;
+}
+
+.countdown_dashboard { 
+	height: 110px;
+}
+
+.cntSeparator {
+	font-size: 54px;
+	margin: 10px 7px;
+	color: #000;
+}
+
+.counter_desc { 
+	margin-top: 7px;
+}
+.counter_desc div {
+	float: left;
+	font-family: Arial;
+	width: 102px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #555;
+	text-align: center;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+.counter_desc div.space {
+	float: left;
+	width: 31px;
+	border:none;
+}
+
+
+/* var 2*/
+.dash {
+	width: 110px;
+	height: 114px;
+	background: transparent url('../image/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+
+.dash .digit {
+	font-smooth: always;
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	font-family: Times;
+	color: #555;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 6px;
+	font-size: 9pt;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.dev_comment {
+	font-size: 14pt;
+	color: #777;
+	text-align: center;
+	font-style: italic;
+	margin: 40px 10px;
+}

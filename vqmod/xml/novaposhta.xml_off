@@ -1,0 +1,81 @@
+<modification>
+	<id><![CDATA[Simple - Новая почта]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[]]></vqmver>
+	<author><![CDATA[Max]]></author>
+	
+	<file name="admin/language/russian/*/*.php">
+		<operation info="">
+			<search position="replace"><![CDATA['Город:']]></search>
+			<add><![CDATA['Отделение Новой почты:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Область:']]></search>
+			<add><![CDATA['Город:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Страна:']]></search>
+			<add><![CDATA['Регион:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Страна']]></search>
+			<add><![CDATA['Регион']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Регионы']]></search>
+			<add><![CDATA['Города']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Страны']]></search>
+			<add><![CDATA['Регионы']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Название региона']]></search>
+			<add><![CDATA['Название города']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Название региона:']]></search>
+			<add><![CDATA['Название города:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Название страны:']]></search>
+			<add><![CDATA['Название региона:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Название страны']]></search>
+			<add><![CDATA['Название региона']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Код региона:']]></search>
+			<add><![CDATA['Код города:']]></add>
+		</operation>
+	</file>
+	
+	
+	<file name="catalog/language/russian/*/*.php">
+		<operation info="">
+			<search position="replace"><![CDATA['Город']]></search>
+			<add><![CDATA['Отделение Новой почты']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Область']]></search>
+			<add><![CDATA['Город']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Страна']]></search>
+			<add><![CDATA['Регион']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Город:']]></search>
+			<add><![CDATA['Отделение Новой почты:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Область:']]></search>
+			<add><![CDATA['Город:']]></add>
+		</operation>
+		<operation info="">
+			<search position="replace"><![CDATA['Страна:']]></search>
+			<add><![CDATA['Регион:']]></add>
+		</operation>
+	</file>
+</modification>

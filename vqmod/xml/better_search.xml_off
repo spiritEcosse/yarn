@@ -1,0 +1,20 @@
+
+<modification>
+    <id>Better Search</id>
+    <version>0.1</version>
+    <vqmver>1.0.8</vqmver>
+    <author>Kyle Agronick</author>
+    <!-- <file name="catalog/model/catalog/product.php">
+        <operation>
+            <search position="before" offset="2">
+			<![CDATA[if (!empty($data['filter_name']) && !empty($data['filter_tag'])) {]]>
+            </search>
+            <add>
+			<![CDATA[
+                                $sql .= "OR LCASE(p.model) LIKE LCASE('%" . $this->db->escape($data['filter_name']) . "%')  OR LCASE(p.sku) LIKE LCASE('%" . $this->db->escape($data['filter_name']) . "%')   OR p.upc LIKE LCASE('%" . $this->db->escape($data['filter_name']) . "%') ";
+		]]>
+            </add>
+        </operation>
+    </file> -->
+</modification>
+                
